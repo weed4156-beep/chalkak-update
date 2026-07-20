@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>찰칵정리 — 아이 사진 자동 분류 프로그램 | 토리태권도</title>
+<meta name="description" content="태권도장 관장이 직접 만든 얼굴인식 아이 사진 자동 분류 프로그램. 수백 장 사진을 아이별 폴더로 자동 정리하고 학부모 전송까지.">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Pretendard', 'Malgun Gothic', '맑은 고딕', sans-serif; color: #3a2e20; background: #fffdf7; line-height: 1.7; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+  header { background: linear-gradient(180deg, #ffe05c, #ffc828); padding: 48px 0 40px; text-align: center; }
+  header img { width: 140px; height: 140px; border-radius: 50%; border: 6px solid #fff; box-shadow: 0 6px 20px rgba(0,0,0,.15); }
+  h1 { font-size: 2rem; margin-top: 16px; }
+  .tagline { font-size: 1.05rem; margin-top: 6px; color: #5a4630; }
+  .btn { display: inline-block; padding: 14px 28px; border-radius: 12px; font-weight: 700; text-decoration: none; margin: 8px 6px 0; }
+  .btn-dl { background: #b5722f; color: #fff; }
+  .btn-kakao { background: #391b1b; color: #ffe05c; }
+  section { padding: 36px 0; }
+  h2 { font-size: 1.3rem; border-left: 5px solid #ffc828; padding-left: 10px; margin-bottom: 16px; }
+  ul.feat li { margin: 8px 0 8px 4px; list-style: none; }
+  ul.feat li::before { content: "✅ "; }
+  table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+  th, td { border: 1px solid #e8ddc8; padding: 10px 12px; text-align: center; }
+  th { background: #fff3d0; }
+  .event { color: #c0392b; font-weight: 700; }
+  .note { font-size: .9rem; color: #8a7a60; margin-top: 8px; }
+  .story { background: #fff6dd; border-radius: 14px; padding: 20px 22px; }
+  footer { background: #3a2e20; color: #d9cbb5; font-size: .85rem; padding: 26px 0; margin-top: 30px; }
+  footer strong { color: #ffe05c; }
+  footer a { color: #ffe05c; text-decoration: none; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <img src="logo.png" alt="찰칵정리 로고">
+    <h1>찰칵정리</h1>
+    <p class="tagline">태권도장 관장이 직접 만든, 아이 사진 자동 분류 프로그램</p>
+    <a class="btn btn-dl" href="https://github.com/weed4156-beep/chalkak-update/releases/latest/download/ChalkakSetup.exe">⬇ 무료 체험판 다운로드 (Windows)</a>
+    <a class="btn btn-kakao" href="https://pf.kakao.com/_yQvfX/chat">💬 카카오톡 채널 문의</a>
+  </div>
+</header>
+
+<div class="wrap">
+
+<section>
+  <div class="story">
+    수업 끝나고 쌓인 사진 수백 장, 누가 누구인지 넘겨 보며 밤늦게 정리해 본 적 있으신가요?
+    찰칵정리는 광주 토리태권도 관장이 그 고생을 없애려고 직접 개발한 프로그램입니다.
+    사진을 폴더에 넣으면 <b>얼굴인식이 아이를 알아보고 아이별 폴더에 자동 정리</b>합니다.
+  </div>
+</section>
+
+<section>
+  <h2>주요 기능</h2>
+  <ul class="feat">
+    <li>수백 장 사진·동영상을 얼굴인식으로 아이별 폴더에 자동 분류</li>
+    <li>주차 폴더 정리 + 파일명에 날짜·아이 이름 자동 입력</li>
+    <li>확신이 없는 사진은 "보류"로 분리, 클릭 몇 번으로 교정 (교정할수록 똑똑해짐)</li>
+    <li>학부모 전송용 아이별 ZIP 만들기 + 전송 완료 체크 (빠뜨림 방지)</li>
+    <li>도장 로고 워터마크, 주차·월별 통계 (사진 못 받은 아이 자동 표시)</li>
+  </ul>
+  <p class="note">지원 환경: Windows 10/11 · 설치 후 바로 체험판으로 사용 가능 (아이 15명, 1회 30개 파일)</p>
+</section>
+
+<section>
+  <h2>이용 요금</h2>
+  <table>
+    <tr><th>구독 기간</th><th>정가</th><th>출시 기념 이벤트가</th></tr>
+    <tr><td>7일 체험</td><td colspan="2">무료 (카카오톡 채널로 신청)</td></tr>
+    <tr><td>1개월</td><td>20,000원</td><td class="event">15,000원</td></tr>
+    <tr><td>3개월</td><td>60,000원</td><td class="event">50,000원</td></tr>
+    <tr><td>6개월</td><td>120,000원</td><td class="event">100,000원</td></tr>
+    <tr><td>12개월</td><td>240,000원</td><td class="event">200,000원</td></tr>
+  </table>
+  <p class="note">구독 신청·결제 안내는 카카오톡 채널 "찰칵정리" 1:1 채팅으로 문의해 주세요. 라이선스 코드는 입금 확인 후 즉시 발급됩니다.</p>
+</section>
+
+<section>
+  <h2>구매·문의</h2>
+  <p>
+    카카오톡 채널: <a href="https://pf.kakao.com/_yQvfX/chat"><b>찰칵정리 1:1 채팅</b></a><br>
+    이메일: <b>tory5557@naver.com</b>
+  </p>
+</section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <p><strong>찰칵정리</strong> — 아이 사진 자동 분류 소프트웨어</p>
+    <p>상호: 토리태권도 &nbsp;|&nbsp; 대표: 최민규 &nbsp;|&nbsp; 사업자등록번호: 740-93-02035</p>
+    <p>소재지: 광주광역시 서구 금호동 &nbsp;|&nbsp; 이메일: tory5557@naver.com &nbsp;|&nbsp; 카카오톡 채널: <a href="https://pf.kakao.com/_yQvfX">찰칵정리</a></p>
+    <p style="margin-top:8px">ⓒ 2026 토리태권도. '찰칵정리'는 토리태권도에서 개발·판매하는 소프트웨어입니다.</p>
+  </div>
+</footer>
+
+</body>
+</html>
