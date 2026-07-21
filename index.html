@@ -26,6 +26,15 @@
   .event { color: #c0392b; font-weight: 700; }
   .note { font-size: .9rem; color: #8a7a60; margin-top: 8px; }
   .story { background: #fff6dd; border-radius: 14px; padding: 20px 22px; }
+  .shot { margin: 22px 0; }
+  .shot img { width: 100%; border: 1px solid #e8ddc8; border-radius: 10px; box-shadow: 0 3px 12px rgba(0,0,0,.08); display: block; }
+  .shot .cap { font-size: .95rem; color: #5a4630; margin-top: 8px; }
+  .shot .cap b { color: #b5722f; }
+  .faq { margin-top: 10px; }
+  .faq dt { font-weight: 700; margin-top: 16px; color: #3a2e20; }
+  .faq dt::before { content: "Q. "; color: #b5722f; }
+  .faq dd { margin: 4px 0 0; color: #5a4630; }
+  .faq dd::before { content: "A. "; color: #8a7a60; font-weight: 700; }
   footer { background: #3a2e20; color: #d9cbb5; font-size: .85rem; padding: 26px 0; margin-top: 30px; }
   footer strong { color: #ffe05c; }
   footer a { color: #ffe05c; text-decoration: none; }
@@ -66,6 +75,23 @@
 </section>
 
 <section>
+  <h2>이렇게 사용해요</h2>
+  <div class="shot">
+    <img src="cap1.png" alt="사진 분류 결과 화면">
+    <p class="cap"><b>1. 사진을 넣고 [분류 시작]</b> — 얼굴인식이 아이별로 자동 분류합니다. 결과를 카드로 확인하고, 틀린 건 클릭 몇 번으로 교정하면 다음부터 더 똑똑해집니다.</p>
+  </div>
+  <div class="shot">
+    <img src="cap2.png" alt="학부모 전송 화면">
+    <p class="cap"><b>2. 학부모에게 전송</b> — 아이별로 사진을 묶어 카카오톡으로 보냅니다. 보낸 아이는 자동 체크되어 빠뜨리는 일이 없습니다.</p>
+  </div>
+  <div class="shot">
+    <img src="cap3.png" alt="주차별 통계 화면">
+    <p class="cap"><b>3. 한눈에 확인</b> — 주차별로 아이마다 몇 장을 받았는지 표시하고, <b>사진이 없는 아이는 빨간색</b>으로 알려줘 미리 챙길 수 있습니다.</p>
+  </div>
+  <p class="note">※ 화면 속 사진은 개인정보 보호를 위해 얼굴을 흐리게 처리했습니다.</p>
+</section>
+
+<section>
   <h2>이용 요금</h2>
   <table>
     <tr><th>구독 기간</th><th>정가</th><th>출시 기념 이벤트가</th></tr>
@@ -76,6 +102,22 @@
     <tr><td>12개월</td><td>240,000원</td><td class="event">200,000원</td></tr>
   </table>
   <p class="note">구독 신청·결제 안내는 카카오톡 채널 "찰칵정리" 1:1 채팅으로 문의해 주세요. 라이선스 코드는 입금 확인 후 즉시 발급됩니다.</p>
+</section>
+
+<section>
+  <h2>자주 묻는 질문</h2>
+  <dl class="faq">
+    <dt>설치할 때 파란 경고창이 떠요.</dt>
+    <dd>새로 나온 프로그램이라 Windows가 아직 몰라서 뜨는 안내이며, 바이러스가 아닙니다. 창의 [추가 정보] → [실행]을 누르면 설치됩니다.</dd>
+    <dt>얼굴 인식이 틀리면 어떻게 하나요?</dt>
+    <dd>틀린 사진을 골라 올바른 아이로 교정하면 됩니다. 교정한 내용이 학습에 반영되어 다음부터 점점 더 정확해집니다. 애매한 사진은 "보류"로 빠지니 안심하세요.</dd>
+    <dt>사진은 어디에 저장되나요?</dt>
+    <dd>지정하신 폴더 안에서만 아이별로 정리됩니다. 사진이 외부(인터넷)로 전송되는 일은 전혀 없습니다. 모든 처리는 내 컴퓨터 안에서 이루어집니다.</dd>
+    <dt>컴퓨터를 잘 몰라도 쓸 수 있나요?</dt>
+    <dd>네. 사진을 폴더에 넣고 버튼 몇 개만 누르면 됩니다. 설치 시 안내 마법사가 처음 설정을 도와드리고, 사용설명서도 함께 드립니다.</dd>
+    <dt>먼저 써보고 결정하고 싶어요.</dt>
+    <dd>설치만 하면 체험판을 바로 쓸 수 있고, 카카오톡 채널로 문의하시면 모든 기능이 열리는 7일 무료 이용권을 보내드립니다.</dd>
+  </dl>
 </section>
 
 <section>
